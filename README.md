@@ -6,6 +6,15 @@ This project analyzes Amazon Review scores for musical instruments to see if the
 The dataset was taken from the [Amazon Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) and extracted, transformed, and loaded into four tables in a database using Google's Colaboratory. The tables were exported into .csv files, and the Vine vs. non-Vine reviews were analyzed using pandas in jupyter-lab.
 
 # Results
+**Table of Vine (Paid) Reviews**
+
+![Resources/vine_table.PNG](Resources/vine_table.PNG)
+
+**Table of Non-Vine (Unpaid) Reviews**
+
+![Resources/non-vine_table.PNG](Resources/non-vine_table.PNG)
+
+----------------------------------------------------------------
 **Vine (Paid) Reviews**
 - Total Vine Reviews: **60**
 - Total Vine 5 Star Reviews: **34**
